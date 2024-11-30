@@ -4,7 +4,6 @@ RUN curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 RUN sudo apt-get install aptitude
 RUN sudo aptitude install nodejs -y
 RUN sudo aptitude install npm -y
-RUN sudo npm install npm@latest -g
 
 
 COPY . .

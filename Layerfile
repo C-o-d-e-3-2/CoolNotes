@@ -1,6 +1,6 @@
 FROM vm/ubuntu:18.04
 
-RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+RUN curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 RUN sudo apt-get install aptitude
 RUN sudo aptitude install nodejs -y
 RUN sudo apt-get install npm
